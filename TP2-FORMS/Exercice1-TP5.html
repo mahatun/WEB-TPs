@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+<style>
+    body{
+        margin:0;
+        padding:0;
+        background: url('https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg') no-repeat;
+        background-size: cover;
+
+    }
+    
+</style>
+
+<body>
+    
+    <form>
+    <h1 style="color:#000075; border:solid;border-color:#000075;border-radius: 5px;font-style:oblique ;"><center>Formulaire</center></h1>
+    <center>
+        <label for="pr">Prenom :</label>
+        <input type ="text" name="pr"><br>
+        <p></p>
+        <label for="nm">Nom:</label>
+        <input type ="text" name="nm"><br>
+        <p></p>
+        <label for="em">E-mail :</label>
+        <input type ="text" name="em"><br>
+        <p></p>
+        <label for="mp">Mot de passe :</label>
+        <input type ="text" name="mp"><br>
+        <p></p>
+        <input type="radio"  name="six" value="Male" checked>
+        <label for="Male">Homme</label><br>
+        <input type="radio" name="six" value="Female" >
+        <label for="Female">Femme</label><br>
+        <input type="image" value="submit" src="https://img.passeportsante.net/1200x675/2021-05-03/i102046-fraise-nu.webp" width="25" height="25" border="0"  >
+    <!--<input type="button" value="Ici quelque chose de delicieux" src="https://img.passeportsante.net/1200x675/2021-05-03/i102046-fraise-nu.webp" onclick="window.open(this.src)">-->
+        <input type="reset" value="reset ">
+
+
+    </center>
+    <hr>
+    <center>
+        <p>Sexe:</p>
+        <input type="radio"  name="gender" value="Male">
+        <label for="Male">Homme</label>
+        <input type="radio" name="gender" value="Female" checked>
+        <label for="Female">Femme</label>
+        <p>Materiel Possede:</p>
+        <input type="checkbox" name="1" value="1" checked>
+        <label for="1">Ecran plat</label>
+        <input type="checkbox"  name="2" value="2">
+        <label for="2">Graveur de DVD</label>
+        <input type="checkbox"  name="3" value="3">
+        <label for="3">Graveur de CD</label>
+        <input type="checkbox"  name="4" value="4">
+        <label for="4">Imprimante multifonction</label>
+        
+
+    </center>
+    <hr>
+    <center>
+        <label for="navigateurs">Chisissez votre navigateur:</label>
+        <select name="navigateurs" style="width:20%" >
+            <option value="Firefox">Firefox</option>
+            <option value="Mozilla">Mozilla</option>
+            
+          </select>
+    </center>
+    <hr>
+    <select name="navigateurs" style="width:20%"  >
+        <option value="1">Autre</option>
+
+        <optgroup label="Nescape Navigator">
+            <option value="Anterieur a la version 4.0">Anterieur a la version 4.0</option>
+            <option value="version 4 a 6">Version 4 a 6</option>
+            <option value="Posterieur" >Posterieur a la version 6</option>
+          </optgroup>
+        <optgroup label="Firefox">
+            <option value="Firefox 1.0">Firefox 1.0</option>
+            <option value="Firefox 1.2">Firefox 1.2</option>
+            <option value="Firefox 1.2" >Firefox 1.2</option>
+        </optgroup>
+        <optgroup label="Internet Explorer">
+            <option value="Anterieur a la version 4.0">Anterieur a la version 4.0</option>
+            <option value="Version 4 a 5">Version 4 a 5</option>
+            <option value="Posterieur a la version 6" >Posterieur a la version 6</option>
+        </optgroup>
+        
+        
+        
+        
+    </select>
+    <hr>
+    
+        <textarea   rows="15" cols="100"  align="right">
+        Premiere ligne de texte initial
+
+        Seconde ligne de texte initial
+        </textarea>
+        <input type="submit" value="Envoyer" style="position: relative;left: 10px;">
+        <input type="reset" name="reset" style="position: relative;left: 10px;">
+
+    
+    <hr>
+    <p></p>
+    <fieldset>
+        <legend>Systeme d exploitation</legend>
+        <input type="radio" name="systeme"  value="1" checked>
+        <label for="1">Windows</label>
+        <input type="radio" name="systeme" value="2"  >
+        <label for="2">Mac OX</label>
+        <input type="radio" name="systeme" value="3" >
+        <label for="3">Linux</label>
+        <input type="radio" name="systeme" value ="4" >
+        <label for="4">Autre</label>
+    </fieldset>
+    <fieldset>
+        <legend>Categorie recherchee</legend>
+        <label>Quel type de produit recherchez vous ?</label>
+        <input type ="checkbox" value="1">
+        <label for ="1">Utilitaire systeme</label>
+        <input type="checkbox" value="2">
+        <label for="2">Son et video</label>
+        <input type ="checkbox" value="3">
+        <label for="3">Bureautique</label>
+        <p>Si la catégorie recherch�e ne figure pas dans la liste précédente, saisissez ci-dessous des mots-clés séparés par
+            des virgules. </p>
+        <textarea rows="7" cols="90"></textarea>
+    </fieldset>
+</form>
+
+
+<body>
+    
+
+</html>

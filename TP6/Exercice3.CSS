@@ -1,0 +1,39 @@
+ol li{
+    background-color: #ffe5e5;
+    color:darkred;
+    padding:5px;
+    margin: left 30px;
+    
+}
+ol{
+    background:  #ff9999;
+    padding: 20px;
+}
+ul{
+    background:lightseagreen;
+    padding: 20px;
+}
+ul li{
+    background-color: lightskyblue;
+    color:darkblue;
+    margin:5px;
+}
+td.c1{
+    border: 1px solid;
+    border-color:green;
+}
+
+table:first-of-type{
+    border:solid;
+    
+}
+table.c2{
+    width: 50%;
+    border:None;
+    background-color:lightgrey;
+}
+th.a{
+    background-color:gray ;
+    
+
+}

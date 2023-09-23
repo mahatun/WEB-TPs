@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <form>
+        <div class="main">
+            <div style="background: rgb(250, 250, 245);">
+                <div class="titre">Creer un compte</div>
+                <div class="forms">
+                    <div class="state" >
+                        <label>Nom d'utilisateur</label><br>
+                        <input type="text" id="username"><br>
+                        <small>erreur</small><br>
+
+                    </div>
+                    <div class="state">
+                        <label>Email</label><br>
+                        <input type="email" id="mail"><br>
+                        <small></small><br>
+
+                    </div>
+                    
+    
+                    
+                    <div class="state">
+                        <label>Password</label><br>
+                        <input type="text" id="password1"><br>
+                        <small></small><br>
+
+                    </div>
+                    
+                    <div class="state">
+                        <label>Mot de passe confirme</label><br>
+                        <input type="text" id="password2"><br>
+                        <small></small><br>
+
+                    </div>
+                    
+    
+                    <input type="button" value="Submit Form" id="butt" onclick="formVerify()">
+    
+    
+                </div>
+
+            </div>
+           
+        </div>
+
+    </form>
+    <script>
+        const username = document.getElementById("username");
+        const mail = document.getElementById("mail");
+        const password1 =document.getElementById("password1");
+        const password2 = document.getElementById("password2");
+        function formVerify(){
+            //take input
+            const userValue = username.value;
+            const userMail =   mail.value;
+            const pass1 = password1.value;
+            const pass2 = password2.value;
+            let num = userValue.length;
+
+            if (userValue == ""){
+                let message = "Veuillez remplir votre Nom";
+                setError(username,message);
+            }
+            else if (!userValue.match(/^[a-zA-Z]/)){
+                let message ="Username doit commencer par une lettre";
+                setError(username,message);
+            
+
+            }
+            else if(num < 3){
+                
+                
+                    let message = "Username doit avoir au moins 3 caracteres";
+                    setError(username,message);
+
+                
+            }
+            else{
+                setSuccess(username);
+            }
+
+            if (userMail == ""){
+                let message ="Email Requis";
+                setError(mail,message);
+            }
+            else if (!email(userMail)){
+                let message = "Email non valide";
+                setError(mail,message);
+            }
+            else{
+                setSuccess(mail);
+            }
+
+            if (pass1 == ""){
+                let message = "Mot de passe requis";
+                setError(password1,message);
+            }
+            else if(!password(pass1)){
+                let message="Mot de passe trop faible (8 a 12 caracteres )";
+                setError(password1,message);
+            }
+            else{
+                setSuccess(password1)
+            }
+            if (pass2 == ""){
+                let message = "Veuillez entrer encore une fois le mot de passe";
+                setError(password2,message);
+            }
+            else if (pass1 != pass2){
+                let message = "Les mots de passes ne correspondent pas";
+                setError(password2,message);
+            }
+            else{
+                setSuccess(password2);
+            }
+        }
+           
+
+              
+        
+        function setError(elem,message){
+            const divParent = elem.parentElement;
+            const small = divParent.querySelector('small');
+            // or divParent.lastChild
+            //ajouter l erreur
+            small.innerText = message;
+            //ajouter la class
+            divParent.className = "state-error";
+
+        }
+        function setSuccess(elem){
+            const div = elem.parentElement;
+            div.className = "state-success";
+        }
+        function email(mail){
+
+            return /^[a-z0-9._-]+@[a-z0-9._-]{2,}.[a-z]{2,4}$/.test(mail);
+        }
+        function password(pass){
+            return /^[a-zA-Z0-9!@#$%^&*]{8,12}$/.test(pass)
+           
+        }
+        ///^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,12}$/.test(passeword);
+
+    </script>
+    
+    
+</body>
+</html>

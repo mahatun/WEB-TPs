@@ -1,0 +1,23 @@
+div.a{
+    border:1px solid black;
+    background-color: yellow;
+    padding:6px;
+    display:inline;
+}
+div.b{
+    border:1px solid black;
+    background-color: yellow;
+    height:100px;
+    padding:6px;
+    display:inline-block;
+
+}
+div.c{
+    border:1px solid black;
+    background-color: yellow;
+    width:80px;
+    height: 80px;
+    padding: 6px;
+    display:block;
+
+}

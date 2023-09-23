@@ -1,0 +1,20 @@
+.identifier{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    
+    padding: 7px;
+}
+.butt{
+    background-color: rgb(7, 7, 85);
+    color: white;
+    border: hidden;
+    width: 103%;
+    
+}
+input{
+    width: 100%;
+}
+input:first-of-type{
+    margin-top: 10px;
+}

@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    font-style: italic;
+}
+div p {
+    color:green;
+    font-style: normal;
+}
+li p {
+    color:purple;
+    font-style: normal;
+
+}
+li ~ li{
+    color:yellowgreen
+}
+ol ~ p{
+    color:red;
+    font-style: normal;
+}

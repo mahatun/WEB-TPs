@@ -1,0 +1,38 @@
+div.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+div.contenent1{
+    border:2px solid firebrick;
+    background-color: firebrick;
+    width: 200px;
+    height: 100px;
+    border-radius: 3px;
+    
+    margin-bottom: 8px;
+    
+
+}
+div.contenent2{
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    border-radius: 3px;
+    line-height: 5px;
+    margin-bottom: 8px;
+   
+}
+div.contenent3{
+    border: 2px solid yellow;
+    background-color: yellow;
+    width:200px;
+    height:100px ;
+    border-radius: 3px;
+    line-height: 5px;
+    margin-bottom: 8px;
+    
+    
+}

@@ -1,0 +1,40 @@
+
+h1{
+    color:green;
+    border-style: solid;
+    border-color: green;
+    height: 50px;
+    background-color: white;
+
+
+
+}
+* { 
+    text-align:center;
+}
+.c1 {
+    color:red;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    height: 50px;
+
+}
+.p1{
+    color: green;
+    font-style: italic;
+    position:relative;
+    top:-10px;
+    line-height:70px;
+    font-size:larger;
+}
+p.c3{
+    color: blue;
+    line-height: 30px;
+}
+body{
+    background-color:#D3D3D3;
+}
+span{
+    background-color:lightblue;
+}

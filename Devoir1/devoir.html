@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="devoir.css">
+
+<head>
+    <div class="head">
+        <img src="top.png">
+
+    </div>
+    <div class="list">
+        <ul>
+            <li ><a href="#" class="special">ACCEUIL</a></li>
+            <li><a href="#">GUIDE UTILISATEUR</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">CONTACTEZ NOUS</a></li>
+        </ul>
+    </div>
+    <div class="big">
+        <div class="gauche">
+            <div class="acc">
+                <img src="acc.png" >
+                <div class="acca"><a href="#">Acceuil</a></div>
+
+            </div>
+            <div class="plus">
+                <button><div>Offre de transport<img src="plus.png"></div></button>
+                <button><div>Prix & reservation<img src="plus.png"></div></button>
+                <button><div>Produits & Services<img src="plus.png"></div></button>
+                <button><div>Infos pratiques <img src="plus.png"></div></button>
+            </div>
+            <div class="chacun">A chacun sa carte pour Voyoger<br> moins cher !</div>
+            <div style="padding-left:5px">
+                <img src="pub1.png">
+            </div>
+            <div>
+                <img src="CRC.png">
+            </div>
+
+        </div>
+        <div class="droite">
+            <div><img src="topform.png"></div>
+            <div class="form">
+                <form class="c">
+                    <div class="first">
+                        <div class="labels1">
+                            <label>Gare de depart*:</label>
+                            <div id="sos"></div>
+                            <label>Gare d'arrivee*:</label>
+                            <div id="sos"></div>
+                            <label>Type de voyage*:</label>
+                            <div id="sos"></div>
+                            <label>Nombre voyageurs:</label>
+                            <div id="sos"></div>
+                            <label>Date d'aller</label>
+                            <div id="sos"></div>
+                            <p>Champs obligatoire *.</p>
+
+                        </div>
+                        <div class="inputs1">
+                            <select class="i1" id="depart">
+                                <option hidden>Faites votre choix</option>
+                                <option>Benguerir</option>
+                                <option>Casablanca</option>
+                                <option>Marrakech</option>
+                            </select>
+
+                            <div id="sos"></div>
+                            
+                            <select class="i2" id="arrivee">
+                                <option hidden>Faites votre choix</option>
+                                <option>Benguerir</option>
+                                <option>Casablanca</option>
+                                <option>Marrakech</option>
+                            </select>
+                            <div id="sos"></div>
+                            
+                            <select class="i3" id="imp">
+                                <option>Aller simple</option>
+                            </select>
+                            <div id="sos"></div>
+                            
+                            <label class="i4" id="imp">Adultes*: 
+                                <select style="float: right; width:40px">
+                                    <option>1</option>
+                                </select>
+                            </label>
+                            <div id="sos"></div>
+                            
+                            <input type="text" placeholder="14/11/2017" class="i5" id="imp">
+                            <div id="sos"></div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="last">
+                        <div class="labels2">
+                            <label>Confort*:</label>
+                            <div id="sos"></div>
+                            <label>Type de tarif*:</label>
+                            <div id="sos"></div>
+                            <label class="enfant">Enfants(4 a 12ans)*:</label>
+                            <div id="sos"></div>
+                            <label>A partir de* :</label>
+                            <div id="sos"></div>
+
+                        </div>
+                        
+                        <div class="inputs2">
+                            <select class="i6" id="imp">
+                                <option>2eme classe</option>
+                                <option>1 ere class</option>
+                            </select>
+                            <div id="sos"></div>
+                            
+                            <select class="i7" id="imp">
+                                <option>Plein Tarif</option>
+                                <option>Promotion</option>
+
+                            </select>
+                            <div id="sos"></div>
+                            
+                            <select class="i8">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                            <div id="sos"></div>
+                            
+                            <div class="i9" id="imp">
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                                :
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>30</option>
+                                </select>
+                            </div>
+                            <div id="sos"></div>
+                            
+
+                        </div>
+                        
+
+                    </div>
+                    
+                </form>
+                <from>
+                    <div class="reset">
+                        <button class="ok" onclick="requis()"><div><img src="recherche.png">Rechercher</div></button>
+                        <button class="ok" onclick="effacer()"><div><img src="effacer.png" > Effacer</div></button>
+                    </div>
+                </from>
+                
+            </div>
+            <div class="paiement">
+                <img src="ImageDescriptiveInformatisation.jpg">
+
+            </div>
+
+        </div>
+        
+
+    </div>
+    <div class="achetez">Achetez votre ticket sur <a >www.ONCF-Voyages.ma</a> En toute securite</div><br>
+    <div class="last">
+        <p class="italique">Vous pouvez annuler votre billet, selon les conditions générales de vente en cliquant <a>ici.</a></p>
+
+    </div>
+    
+    <div class="bottom"></div>
+    <div class="bas">
+        <div><a>CONDITIONS GENERALES D'UTILISATION @2017 ONCF.TOUS DROITS RESERVES</a></div>
+    </div>
+
+
+
+
+
+    <script>
+        var selects = document.getElementsByTagName('select');
+        var elms = document.querySelectorAll("[id='sos']");
+       
+        for(let i=0;i<elms.length;i++){
+            if (i <= 4 ){
+                var copy= elms.slice(i,i+1);
+
+                alert(copy.length);
+                
+
+
+            }
+
+            
+        }
+        alert(elms.length);
+       
+        function requis() {
+            
+            for(let i =0;i<selects.length; i++){
+                if (selects[i].selectedIndex == "0"){
+                    
+                   
+                    alert(elms.length);
+                  
+                    
+                    
+                    
+                    
+                }
+            }
+            
+            
+        }
+        function effacer(){
+            for(let i=0;i<selects.length;i++){
+                selects[i].selectedIndex = "0";
+            }
+        }
+        function all(){
+            gare();
+            requis();
+        }
+        function gare(){
+            var elem1 =document.getElementById("arrivee");
+            var elem2 = document.getElementById("depart");
+            if (elem1.selectedIndex == elem2.selectedIndex){
+                alert("Voyage impossible");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

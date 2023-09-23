@@ -1,0 +1,161 @@
+div.head{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+div.head div:nth-child(2){
+    align-self: flex-end;
+}
+div.head div:nth-child(1) div {
+    color:rgb(7, 7, 96);
+    font-style: sans-serif;
+    font-weight: bold;
+    margin-left: 4px;
+}
+div.head div:nth-child(2) a{
+    text-decoration: none;
+    color:rgb(33, 33, 149);
+}
+div.acceuil a {
+    color:rgb(7, 7, 96);
+    font-weight: bold;
+    font-style: sans-serif;
+
+
+}
+div.acceuil{
+    border: 1px solid black;
+}
+div.formulaire{
+    border:1px solid black;
+}
+div.creation{
+    border:1px solid red;
+}
+div.creation > p:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: sans-serif;
+    background-color: rgb(6, 6, 120);
+    padding-left: 30px;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+}
+div.formulaire{
+    padding: 20px;
+    margin: 30px;
+}
+div.creation{
+    margin: 100px;
+}
+div.acceuil{
+    margin: 10px;
+
+}
+*{
+    background-color: rgb(231, 239, 236);
+}
+div.acceuil{
+    background-color: white;
+}
+div.creation > p:nth-child(2){
+    padding-left: 30px;
+}
+
+div.robot{
+    display: flex;
+    
+}
+div.check{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-left: 20px;
+}
+
+div.gauche{
+    
+    width: fit-content;
+    font-size: 14px;
+}
+div.droite{
+   
+    width: fit-content;
+    font-size: 14px;
+    
+    
+}
+div.lmerd{
+    
+    display:flex;
+    justify-content: center;
+}
+div.gauche{
+    text-align: end;
+    margin-right: 10px;
+    line-height: 30px;
+    
+   
+}
+div.droite div{
+    margin-top: 6px;
+}
+div.droite div:nth-child(2){
+    margin-top: 9px;
+}
+div.droite div:nth-child(3){
+    margin-top:9px ;
+}
+div.droite div:nth-child(4){
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+div.droite label{
+    line-height: 10px;
+}
+div.accept{
+    margin-left: 260px;
+    margin-top: 40px;
+}
+div.last{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+div.last input{
+    background-color: rgb(9, 9, 89);
+    color:white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:double white;
+}
+div.daya3{
+    position: absolute;
+    border:1px solid black;
+    margin-left: 900px;
+    
+    margin-top: -130px;
+    padding-left: 10px;
+    background-image: linear-gradient(white,rgb(231, 239, 236));
+}
+div.daya3:nth-of-type(2){
+    margin-top: -180px;
+}
+div.daya3 p:first-child{
+    color:darkblue;
+    font-weight: bold;
+    font-style: sans-serif;
+    
+
+}
+div.daya3 p{
+    background-image: linear-gradient(white,rgb(231, 239, 236));
+
+}

@@ -1,0 +1,54 @@
+.big{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+}
+.container{
+    display: flex;
+    padding: 3px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 300px;
+    padding: 9px;
+    
+    
+
+}
+div.article > p:first-child{
+
+    font-weight: bold;
+    font-size: large;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    
+}
+div.buttons > button{
+    width: 95px;
+}
+.blush{
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}

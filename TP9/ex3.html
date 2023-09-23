@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="montrer" onclick="montrer()">Montrer</button>
+    <button id ="cacher" onclick="cacher()">Cacher</button>
+    <img src="https://post.healthline.com/wp-content/uploads/2021/11/lotus-flower-in-pond-732x549-thumbnail-732x549.jpg">
+    <img src="flower-729512__340.jpg">
+    <script>
+        var images = document.getElementsByTagName('img');
+        var sources =[];
+        for(let i=0;i<images.length;i++){
+            sources[i]=images[i].src;
+        }
+        function cacher(){
+            
+            for(let i=0; i<images.length;i++){
+                images[i].src ="";
+
+            }
+
+        }
+        function montrer(){
+            for(let i=0; i<images.length;i++){
+                images[i].src =sources[i];
+
+            }
+        }
+    </script>
+    
+</body>
+
+</html>

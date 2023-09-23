@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div style="width: 40%; background-color: rgb(181, 178, 178);" >
+        <div class="identifier">S'IDENTIFIER</div>
+        
+            <form style="width: 97%;">
+                <input type="email" placeholder="Email" >
+                <p id="eR" style="color:red;"></p>
+                <input type ="password" placeholder="Password" >
+                <p id="mR" style="color:red;"></p>
+                <button class="butt" type="button" onclick="required()">Log in</button>
+                
+            </form>
+
+        
+    </div>
+    <script>
+        var emails=["mahahanif@um6p.ma","oumaimamouimi@um6p.ma"];
+        var mdps =["mahahanif","oumaimamouimi"]
+        var inputs = document.getElementsByTagName('input');
+        var parag = document.getElementsByTagName('p');
+        var text =["Email required","Password required"]
+        var count =0;
+        var countf =0;
+        function required(){
+            
+            
+            for (var i=0; i<inputs.length; i++){
+                
+                
+                if (inputs[i].value == ''){
+                    var ide =parag[i].id;
+                    count++;
+                    
+                    document.getElementById(ide).innerHTML =text[i];
+                    
+
+                }
+                
+                
+            
+            }
+            if( count == 0){
+                
+                for(var j =0; j< emails.length;j++){
+                    if (inputs[0].value == emails[j]){
+                        if(inputs[1].value == mdps[j]){
+                            alert("Congrats");
+                            break;
+                        }
+                        else{
+                            alert("mot de passe incorrect")
+                            break;
+                        }
+                        
+                    }
+                    else{
+                        countf++;
+                        
+
+                     
+                    }
+                    if( countf == 2){
+                    alert("il n esxite aucun utilisateur avec cet adrresse mail ");
+
+                }
+                
+                    
+                }
+                
+                
+                
+            }
+            
+        }
+        
+    </script>
+    
+</body>
+</html>

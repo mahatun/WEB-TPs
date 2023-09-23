@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color : white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   
+
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 40px 0px;
+}
+td{
+    width: 150px;
+    height:40px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-family : arial;
+    background-color: white;
+    color:black;
+    margin:5px;
+}
+
+.Orange{
+    background-color:rgb(216, 86, 16);
+    color:white;
+    text-align: center;
+    height: 60px;
+
+
+}
+.Blue{
+    background-color:rgb(41, 79, 232);
+    color:white;
+    text-align: center;
+    height: 60px;
+
+
+}
+.Green{
+    background-color:rgb(9, 78, 28);
+    color:white;
+    text-align: center;
+    height: 60px;
+
+
+}
+.Blueciel{
+    background-color:rgb(34, 151, 202);
+    color:white;
+    text-align: center;
+    height: 60px;
+
+
+}
+tr:nth-child(2n+1){
+    text-align: center;
+    background-color:rgb(235, 229, 229) ;
+    color :black;
+}
+tr.normal:nth-child(2n){
+    text-align: center;
+    background-color:white;
+    color :black;
+}

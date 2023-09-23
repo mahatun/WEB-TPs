@@ -1,0 +1,127 @@
+.haut{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 4, 39);
+    height: 25px;
+    justify-items: center;
+    
+}
+.haut button{
+    border: hidden;
+    background-color: rgb(4, 4, 39);
+    color: rgb(213, 210, 210);
+    padding-top: 5px;
+    
+}
+.haut2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.haut2 button{
+    background-color: white;
+    color: darkblue;
+    font-style: sans-serif;
+    font-weight: bold;
+    border: hidden;
+    padding-left: 18px;
+
+}
+.haut2 div:nth-child(3){
+    border-left: 1px solid grey;
+}
+.client{
+    
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 11px;
+    padding: 5px;
+
+}
+.women1{
+    display: flex;
+    background-color: rgb(4, 4, 39);
+    text-align: left;
+    height: 500px;
+
+
+    
+}
+.women1 img{
+    width: 110%;
+    height: 100%;
+    
+}
+.text p:nth-of-type(1){
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    font-style: sans-serif;
+    margin-top: 0px;
+
+    
+}
+div.text {
+    padding-left: 60px;
+}
+.text div.c2{
+    margin-top: -50px;
+    color: white;
+    font-style: sans-serif;
+}
+.text input{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 60px;
+    padding-right:60px ;
+    background-color: red;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color:white;
+    font-weight: bold;
+    font-style: sans-serif;
+    border: hidden;
+    border-radius: 10px;
+}
+div.women23{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+}
+div.blanc{
+    display: flex;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div.blanc div p:nth-child(1){
+    color: rgb(4, 4, 39);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    font-style: sans-serif;
+}
+
+div.blanc div p:nth-child(2){
+    color: gray;
+}
+div.blanc div{
+    margin-top: 20px;
+    margin: 5px;
+  
+}
+div.exclu{
+    display: flex;
+    color: white;
+    margin-top:50px ;
+    
+}
+div.exclu div{
+    padding: 8px;
+}
+div.exclu div:nth-child(1){
+    background-color: white;
+    color:rgb(4, 4, 39);
+    border-radius: 4px;
+}

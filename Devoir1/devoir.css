@@ -1,0 +1,265 @@
+.head img{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul {
+    list-style-type: none;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  
+li a {
+    display: flex;
+    font-style: italic;
+    
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+}
+div.list{
+    background-color: orangered;
+    
+}
+div.big{
+    display: flex;
+   
+    justify-content: space-around;
+}
+div.acc {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+div.acca a{
+    margin-left: 10px;
+    text-align: center;
+    color:orangered;
+    text-decoration: none;
+    font-weight: bold;
+}
+div.plus{
+    display: flex;
+    flex-direction: column;
+}
+div.plus button div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+div.plus button{
+    background-color: rgb(207, 128, 99);
+    border:2px solid orangered;
+    margin-bottom: 3px;
+    color:white;
+    
+}
+div.chacun {
+    color:maroon;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.form{
+    
+    border:  1px solid orangered;
+    
+    
+    
+    
+}
+div.droite{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+div.first{
+    display: flex;
+    margin:20px;
+    gap:10px;
+}
+div.last{
+    display: flex;
+    margin: 20px;
+    gap:10px
+}
+div.labels1{
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+}
+div.inputs1{
+    display: flex;
+    flex-direction: column;
+    
+}
+div.inputs2{
+    display: flex;
+    flex-direction: column;
+}
+div.labels2{
+    display: flex;
+    flex-direction: column;
+    line-height: 28px;
+}
+form.c{
+    display: flex;
+    justify-content: space-evenly;
+}
+.i1{
+    margin-top: 6px;
+}
+.i2{
+    margin-top: 9px;
+}
+.i3{
+    margin-top: 9px;
+}
+.i4{
+    margin-top: 6px;
+    color: orangered;
+}
+.i5{
+    margin-top: 6px;
+}
+.i6{
+    margin-top:2px;
+}
+.i7{
+    margin-top:13px;
+}
+label.enfant{
+    margin-top: 27px;
+    color: orangered;
+}
+.i8{
+    margin-top:36px;
+}
+.i9{
+    margin-top: 10px;
+}
+div.reset{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 70px;
+}
+div.reset input{
+    background-color: orangered;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border:1px solid white;
+    border-radius: 8px;
+}
+div.paiement img {
+    float:right;
+    border-right: 1px solid orangered;
+    border-bottom: 1px solid orangered;
+    border-top: 1px solid orangered;
+    margin-top: 10px;
+}
+div.achetez{
+    color: rgb(66, 13, 13);
+    font-style: Arial ,sans-serif;
+    font-weight: bold;
+    
+    
+    font-size: 18px;
+}
+div.achetez a {
+    font-weight: lighter;
+    color: orangered;
+}
+
+p.italique{
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 15px;
+    padding-right: 20px;
+    
+}
+p.italique a {
+    color:orangered;
+}
+div.achetez{
+    float: right;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+div.italique{
+    margin-top: 47px;
+    margin-left: 790px;
+}
+div.bottom{
+    background-color: orangered;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+div.bas a{
+    float: right;
+    font-size: 14px;
+    color: orangered;
+    
+}
+div.bas{
+    padding-top: 10px;
+}
+
+   
+    
+label{
+    color:rgb(55, 13, 13);
+    font-weight: bold;
+    font-style: sans-serif;
+}
+select{
+    border: 1px solid orangered;
+    
+}
+input{
+    border: 1px solid orangered;
+}
+.special{
+    background-color: rgb(176, 75, 38);
+    margin-bottom: 2px;
+    
+   
+    
+}
+button.ok div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:20px;
+    
+    
+    
+}
+button.ok{
+    background-color: rgb(250, 92, 35);
+    border: white;
+    border-radius: 5px;
+    color: white;
+    width: 130px;
+    
+}
+.labels1 p{
+    margin-top: 5px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.last{
+    display: flex;
+    justify-content: right;
+
+}

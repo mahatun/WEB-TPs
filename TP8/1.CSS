@@ -1,0 +1,52 @@
+#gra{
+    background: rgb(2,0,36);
+    background: linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(79,26,102,1) 42%, rgba(123,7,140,1) 67%, rgba(208,21,79,1) 100%);
+    border:hidden;
+    width:700px;
+    height:400px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+   
+  }
+#bl{
+    background-color:#87cefa;
+    border:hidden;
+    width: 500px;
+    height:300px;
+    display:flex;
+    margin: 0 auto;
+    
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+#w{
+    background-color: white;
+    border:hidden;
+    width:250px;
+    max-width: 250px;
+    height:170px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+   
+}
+input.c1{
+    width:230px;
+    height:20px;
+   
+}
+input.c2{
+    width:235px;
+    height:30px;
+    background-color:#87cefa;
+    color:white;
+    border-style: hidden;
+    border-radius: 3px;
+    text-align: center;
+}

@@ -1,0 +1,287 @@
+.hautPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size:x-small;
+    color:brown;
+    font-style: Monospace;
+
+}
+
+div.recherche1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image: linear-gradient(white,rgb(219, 216, 216));
+    margin-top: -19px;
+    padding: 4px;
+    
+}
+div.recherche1 button{
+    border:none;
+    font-weight:bolder;
+}
+div.recherche1 input{
+    margin-left: 10px;
+    border: 2px solid black;
+}
+div.hautPage > select{
+    background-color: beige;
+    font-size:x-small;
+    color:brown;
+    font-style: Monospace;
+    border: 0.3px solid lightgrey;
+    border-radius: 2px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color:whitesmoke;
+}
+div.presentation > button {
+    border: none;
+    background-color: whitesmoke;
+    font-style: Monospace;
+    color: grey;
+    
+    font-size: 15px;
+
+}
+div.images{
+    display: inline-flex;
+    width: 100%;
+    
+}
+div.blue{
+    background-color: rgba(0, 195, 255,0.3);
+    font-style: Monospace;
+    font-size: 15px;
+}
+div.blue > h1{
+    font-size: large;
+    color: rgb(105, 198, 229);
+    
+
+
+}
+.first{display: flex; flex-direction: row; height: 230px;}
+.orange{
+    background-color: rgba(245, 179, 56, 0.883);
+    font-style: Monospace;
+    font-size: 15px;
+}
+.purple{
+    background-color: rgb(182, 76, 112);
+    font-style: Monospace;
+    font-size: 15px;
+}
+.green{
+    background-color: rgb(144, 218, 33);
+    font-style: Monospace;
+    font-size: 15px;
+    
+}
+div.orange > h1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(199, 103, 68);
+    
+
+
+}
+div.purple > h1{
+    font-size: large;
+    font-weight: bold;
+    color:rgb(139, 50, 139) ;
+    
+
+
+}
+div.green> h1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(58, 144, 58);
+}
+div.everything{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap:10px;
+    
+    
+}
+div.actualite{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    margin-left: 5px;
+   
+}
+div.actualite > div > a{
+    color:brown;
+    font-weight: bold;
+
+}
+div.actualite > div > p:nth-child(3){
+    color:orange;
+    font-weight: bold;
+    
+    transform: translate(180px);
+
+}
+div.bloc{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(white,rgb(225, 223, 223));
+    height: 210px;
+    border-radius: 8px;
+}
+div.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.acces{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+div.acces > input{
+    width: 50%;
+
+}
+div.chaabi{
+    background-color: rgb(208, 203, 203);
+    margin-bottom: 7px;
+    padding-top: 20px;
+    padding-left: 5px;
+   
+    
+    
+   
+}
+div.black{
+    background-color: black;
+    width: min-content;
+    padding-left: -100px;
+    margin-right: 0px;
+    width:380px;
+    
+   
+}
+div.black img{
+    width: 380px;
+}
+div.Sgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 670px;
+    gap: 5px;
+    padding-left: 10px;
+    
+
+
+}
+div.produit{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+div.supProduit{
+    background-image: linear-gradient(white,rgb(225, 223, 223));
+    margin-bottom: 7px;
+    border-radius: 7px;
+    grid-column-start:1;
+    grid-column-end: 4;
+    height: 110%;
+    margin-top: 10p;
+
+}
+div.supProduit > p{
+
+    color:orange;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+div.vBanque{
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, green, lightgreen);
+}
+div.coursBourse p.head{
+    color: rgb(168, 165, 165);
+    font-size: 20px;
+    background-image: linear-gradient(white,rgb(179, 177, 177));
+    border-radius: 4px;
+    margin-bottom: -1px;
+
+}
+div.coursBourse a.click{
+    color: brown;
+}
+div.sousBourse{
+    
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: rgb(233, 226, 226);
+
+}
+img.stylo{
+    width: 130px;
+    height:110px ;
+}
+div.monde p.head{
+    padding-left: 7px;
+    color: rgb(168, 165, 165);
+    font-size: 20px;
+    background-image: linear-gradient(white,rgb(179, 177, 177));
+    border-radius: 4px;
+    margin-bottom: -1px;
+
+}
+div.monde div{
+    padding-top: 20px;
+    background-color: rgb(233, 226, 226);
+    
+
+}
+div.monde div a{
+    
+    background-color: rgba(131, 129, 129, 0.3);
+}
+div.A3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;
+    height: 60%;
+
+}
+div.monde{
+    
+    margin-right: -10px;
+    width: 122%;
+    margin-left: 5px;
+}
+div.problem{
+    display: flex;
+    justify-content: space-between;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: -30px;
+}
+div.gif{
+    margin-top: 80px;
+}

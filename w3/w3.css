@@ -1,0 +1,89 @@
+div.navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+div.logo ,div.login{
+   
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+div.logo >  img{
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+}
+div.logo > select {
+    border:hidden;
+}
+div.login > button{
+    border: hidden;
+    margin-right: 25px;
+    background-color: white;
+}
+div.login > button:nth-child(4){
+    background-color: rgb(7, 165, 7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 7px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+
+    
+}
+div.big{
+    display:flex;
+    justify-content: center;
+    
+}
+div.little{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.little > h1{
+    padding-left: 160px;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+div.little > a{
+    padding-left: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+div.little > form > input{
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 7px;
+    border: hidden;
+    
+
+
+}
+div.little > p{
+    padding-left: 100px;
+    color: palevioletred;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+div.big{
+    background-color: rgb(48, 47, 47);
+    height: 700px;
+}
+
+
+    
+
+

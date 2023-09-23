@@ -1,0 +1,131 @@
+
+.container1, .container2{display: flex; flex-direction: row; position: relative; margin: 9px auto}
+
+.container1{
+    background-color: #fff;
+    border: 1px solid rgb(230, 225, 248);
+    border-radius: 4px;
+    width: 700px;
+    padding: 10px;
+}
+
+.container2{width: 1350px}
+
+
+.container1 button{
+    color: lightslategrey;
+    border-radius: 8px;
+    letter-spacing: 0.1px;
+    margin: 5px;
+    padding: 10px 20px;
+    height: 50px;
+    width: max-content;
+    border:none;
+}
+
+.container1 button:hover{
+    background-color: rgb(106,100,241);
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.f1, .f2, .f3{
+    position: relative;
+    border: 1px solid rgb(230, 225, 248);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    width: 40%; 
+    height: 550px;
+}
+
+   
+.container2 form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 380px;
+    margin: 8px;
+}
+
+input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid rgb(230, 225, 248);
+    border-radius: 5px;
+}
+
+input, label{margin: 5px}
+
+input[type="submit"]{width: 80px;margin-top: 20px}
+
+input[type="submit"], .c1 button, #file{
+    padding: 6px;
+    font-weight: 700;
+    color:#fff;
+    background-color: rgb(106,100,241);
+    height:30px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.c1 button{width: 150px; height: 50px}
+
+.c1 button:hover{transform: scale(1.1);transition-duration: 0.4s}
+
+input[type="submit"]:active{transform:scale(0.8)}
+
+.c1{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    position:absolute; 
+    top:440px;
+    width: 400px;
+}
+       
+.name,.date{display: flex;justify-content: left}
+
+.name input, .date input{width: 150px;margin-bottom: 11px}
+
+.date, .decision{margin-top: 19px}
+
+.decision input:hover{cursor: pointer;}
+
+    
+.up1, .up2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11px;
+    border:3px dotted rgb(230, 225, 248);
+    padding: 9px;
+}
+
+#yu {font-size: 13px; color:lightslategrey}
+
+.up1 button{padding:10px; border: 3px solid rgb(230, 225, 248); border-radius: 7px}
+
+.up1 button:hover{cursor: pointer}
+
+.up1 button:active, #file:active{transform:scale(0.8)}
+
+.up2{background-color: rgb(247, 248, 252); margin-bottom: 19px; color: rgb(174, 171, 201)}
+
+    
+.form3 textarea{
+    border: 1px solid rgb(230, 225, 248);
+    border-radius: 5px;
+    color:lightgrey;
+    padding:6px;
+}
+body, button{
+    background-color: rgb(245, 248, 254);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px;
+    color:rgb(29,29,92);
+}

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(144, 210, 144);
+}
+div.main{
+    display: flex;
+    justify-content: center;
+    
+}
+div.titre{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(246, 243, 239);
+    text-align: center;
+    padding: 10px;
+}
+#butt{
+    background-color: rgb(144, 210, 144);
+    color: white;
+    width: 100%;
+    border: hidden;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.forms{
+    padding: 80px;
+}
+input{
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+small{
+    position: absolute;
+    visibility: hidden;
+    
+}
+.state-error input{
+    border: 1px solid rgb(245, 117, 117);
+}
+.state-success input{
+    border: 1px solid rgb(141, 238, 141);
+
+}
+.state{
+    margin-bottom: 7px;
+    
+}
+label{
+    font-size:15px ;
+}
+.state-success small{
+    visibility: hidden;
+
+}
+.state-error small{
+    visibility: visible;
+    color: red;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="quizz.css">
+    <script src="quizz.js"></script>
+</head>
+<body>
+    <form>
+        <div >
+            <p>1-What is Diffie-Hellman most commonly used for?</p>
+            <label><input type="radio" name="Q1" value="A1">Symmetric encryption key exchange</label>
+            <label><input type="radio" name="Q1" value="B1">Signing digital contracts</label>
+            <label><input type="radio" name="Q1" value="C1">Secure e-mail</label>
+            <label><input type="radio" name="Q1" value="D1">Storing encrypted passwords</label>
+            
+
+        </div>
+        <div>
+            <p>2-What does a hash function do?</p>
+            <label><input type="radio" name="Q2" value="A2">Creates a secure tunnel</label>
+            <label><input type="radio" name="Q2" value="B2">Breaks encryption by trying every possible key</label>
+            <label><input type="radio" name="Q2" value="C2">Multiplies two very large primes</label>
+            <label><input type="radio" name="Q2" value="D2">Creates a unique digest of a message</label>
+            
+
+        </div>
+        <div>
+            <p>3-How do hash functions provide integrety?</p>
+            <label><input type="radio" name="Q3" value="A3">If the message is edited, the hash will no longer match.</label>
+            <label><input type="radio" name="Q3" value="B3">The hash makes the message uneditable.</label>
+            <label><input type="radio" name="Q3" value="C3">Hashing encrypts the message so that only the private key holder can read it.</label>
+            <label><input type="radio" name="Q3" value="D3">Hashing destroys the message so it cannot be read by anyone.</label>
+            
+
+        </div>
+        <div>
+            <p>4-How is 3DES an improvement over normal DES?</p>
+            <label><input type="radio" name="Q4" value="A4">It uses public and private keys.</label>
+            <label><input type="radio" name="Q4" value="B4">It hashes the message before encryption.</label>
+            <label><input type="radio" name="Q4" value="C4">It uses three keys and multiple encryption and/or decryption sets.</label>
+            <label><input type="radio" name="Q4" value="D4">It is faster than DES.</label>
+            
+
+        </div>
+        <div>
+            <p>5-What kinds of encryption does a digital signature use?</p>
+            <label><input type="radio" name="Q5" value="A5">Hashing and asymmetric.</label>
+            <label><input type="radio" name="Q5" value="B5">Asymmetric and symmetric.</label>
+            <label><input type="radio" name="Q5" value="C5">Hashing and symmetric.</label>
+            
+            
+        </div>
+        <div>
+            <p>6-What does differential cryptanalysis require?</p>
+            <label><input type="radio" name="Q6" value="A6">The key.</label>
+            <label><input type="radio" name="Q6" value="B6">Large amounts of plaintext and ciphertext.</label>
+            <label><input type="radio" name="Q6" value="C6">Just large amounts of ciphertext</label>
+            <label><input type="radio" name="Q6" value="D6">Computers able to guess at key values faster than a billion times per second</label>
+
+        </div>
+        <div>
+            <p>7-What is a brute-force attack?</p>
+            <label><input type="radio" name="Q7" value="A7">Feeding certain plaintext into the algorithm to deduce the key.</label>
+            <label><input type="radio" name="Q7" value="B7">Capturing ciphertext with known plaintext values to deduce the key.</label>
+            <label><input type="radio" name="Q7" value="C7">Sending every key value at the algorithm to find the key.</label>
+            <label><input type="radio" name="Q7" value="D7">Sending two large men to the key owner’s house to retrieve the key.</label>
+            
+        </div>
+        <div>
+            <p>8-Why is integrity important to cryptographic messages?</p>
+            <label><input type="radio" name="Q8" value="A8">To ensure that the message is properly formatted for decryption.</label>
+            <label><input type="radio" name="Q8" value="B8">To protect the keys from exposure.</label>
+            <label><input type="radio" name="Q8" value="C8">To show that a message has not been edited in transit.</label>
+            <label><input type="radio" name="Q8 " value="D8">To show that no one has read the message.</label>
+            
+        </div>
+        <div>
+            <p>9-What is the purpose of a digital certificate?</p>
+            <label><input type="radio" name="Q9" value="A9">It binds a CA to a user’s identity.</label>
+            <label><input type="radio" name="Q9" value="B9">It binds a CA’s identity to the correct RA.</label>
+            <label><input type="radio" name="Q9" value="C9">It binds an individual to an RA.</label>
+            <label><input type="radio" name="Q9" value="D9">It binds an individual to a public key.</label>
+            
+        </div>
+        <input type="button" value="Submit answers" onclick="getscore()">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(234, 237, 241);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header p{
+    color:rgb(45, 45, 90);
+    margin-bottom: 0px;
+}
+div.plan{
+    color:rgb(69, 69, 117) ;
+    margin-left: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+div.plan div{
+    margin-left: 10px;
+}
+div.plan div a{
+    text-decoration: none;
+}
+
+.body{
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 2px solid rgb(139, 139, 216);
+}
+.body .path a {
+    color: rgb(85, 85, 180);
+    text-decoration: none;
+}
+.body .path a.ho{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.form{
+    background-color: rgb(234, 237, 241);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid rgb(224, 224, 241);
+    margin-bottom: 300px;
+}
+.form h4{
+    background-color: rgb(48, 48, 172);
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 0px;
+
+}
+.form  p{
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.form .ast{
+    color:red;
+}
+.form .part{
+    margin-left: 20px;
+    border:2px solid rgb(172, 184, 235);
+    margin-top: 0px;
+    padding: 19px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.form .part label.one {
+    margin-left: 200px;
+ 
+}
+.form .part label.two {
+    margin-left: 183px;
+}
+.form .part label.tri {
+    margin-left: 93px;
+}
+.form .part label.four{
+    margin-left: 140px;
+}
+.form .part div{
+    margin-bottom: 5px;
+    color: midnightblue;
+}
+.form .part input{
+    border: 2px solid rgb(194, 194, 231);
+    border-radius: 3px;
+}
+.comment1 {
+    border: 1px solid  rgb(194, 194, 231);
+    width: 200px;
+    position: absolute;
+    right: 80px;
+    background-image:  linear-gradient(to top, rgb(194, 194, 231),white);
+    top:300px;
+}
+.comment1 span ,.comment2 span{
+    font-weight: bold;
+}
+.comment2{
+    border: 1px solid  rgb(194, 194, 231);
+    width: 200px;
+    position: absolute;
+    right: 80px;
+    background-image:  linear-gradient(to top, rgb(194, 194, 231),white);
+    top:500px;
+}
+.part .chek{
+    margin-left: 250px;
+}
+.part .capt{
+    margin-top: 30px;
+}
+.part .capt img{
+    margin-top: 10px;
+    position: absolute;
+    right: 700px;
+    top: 470px; 
+    width: 200px;
+
+}
+div.lili{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    margin-top: 18px;
+}
+p.comm a{
+    margin-left:520px ;
+    margin-top: 1px;
+    color: midnightblue;
+    font-size: 12px;
+}
+.ola{
+    margin-left: 350px;
+}
+.div{
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.div button{
+    background-color: rgb(76, 76, 187);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.last .fi{
+    margin-left: 200px;
+}
+.last .dr{
+    color:midnightblue ;
+    text-align: center;
+}
+
+
+
+

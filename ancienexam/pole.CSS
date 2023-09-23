@@ -1,0 +1,120 @@
+.container1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(white,#D3D9E9);
+    /*text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;*/
+    position: absolute;
+    width: 100%;
+    margin-top: 190px;
+    
+}
+button{
+    
+    
+    font-size: large;
+    color:darkblue;
+    border: hidden;
+    font-weight: bold;
+    font-size: small;
+    
+    background-image: linear-gradient(white, #D3D9E9) ;
+
+
+}
+p{
+    margin-left:20px ;
+    margin-right: 20px;
+    border:hidden;
+    border-radius: 5px;
+    height: fit-content;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: whitesmoke;
+    color:darkblue;
+    font-weight: bold;
+    font-size: small;
+}
+button.c2{
+    border-right: hidden;
+}
+
+
+
+img{
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+}
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    color:white;
+    font-size: small;
+}
+.im2{
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 110px;
+    margin-top: 53px;
+}
+.pa2{
+    font-size: small;
+    font-style: italic;
+    color: black;
+    position:absolute ;
+    margin-top:270px;
+    margin-left: 50px;
+    width: 80%;
+
+}
+span{
+    text-decoration: underline;
+}
+.fleche{
+    display: inline-block;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: -100px;
+    background-image: linear-gradient(to right,white, #D3D9E9) ;
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid red;
+}
+.im3{
+    
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+
+}
+a.pre{
+    font-size: small;
+    color: darkblue;
+    padding-left:27px;
+}
+.rouge{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    background: none;
+    margin-left:-10px;
+}
+.im4{
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.in{
+    margin-left: 1200px;
+    margin-top: -40px;
+    
+
+}

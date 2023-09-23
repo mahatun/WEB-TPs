@@ -1,0 +1,23 @@
+div.q{
+    border-style: dashed;
+    border-color: red;
+    color:purple;
+    background-color:lightgray;
+    text-align: center;
+    height:70px;
+    width:300px;
+    padding-top:10px;
+
+}
+div.w{
+    border-style:groove;
+    border-width:10px;
+    border-color:yellow;
+    color:purple;
+    background-color:lightgray;
+    text-align: center;
+    height:70px;
+    width:300px;
+    padding-top:10px;
+
+}

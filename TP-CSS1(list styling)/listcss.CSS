@@ -1,0 +1,62 @@
+ul{
+    display: inline-block;
+}
+ul li.c0 {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+   
+}
+  
+ul li.c0::before {
+    content:"\25AA";
+    color:green;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    
+}
+ol{
+    list-style: none;
+    display: inline-block;
+
+}
+ol li.c1{
+    counter-increment: romans;
+
+}
+ol li.c1::before{
+    content:counter(romans, upper-roman)' .';
+    color:green;
+}
+ol li.c2{
+    counter-increment: letter;
+
+}
+ol li.c2::before{
+    content:counter(letter, lower-alpha)' .';
+    color:green;
+}
+
+ul li.c3 {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+    color:blue;
+   
+}
+  
+ul li.c3::before {
+    content:"\25AA";
+    color:#BF40BF;
+    position: absolute;
+    display: inline-block;
+    width:1em;
+    margin-left: -1em;
+    font-weight: bold;
+    font-size: x-large;
+    
+    
+}
+
+

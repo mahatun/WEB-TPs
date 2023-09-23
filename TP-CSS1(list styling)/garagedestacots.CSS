@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    border-style:dashed;
+    background-color:lightgrey;
+}
+p.c2{
+    color:blue;
+    font-style:italic;
+    font-size:larger;
+    line-height: 50px;
+}
+h1.c1{
+    color:white;
+    background-color: lightgray;
+    height:35px;
+    border-style:hidden;
+    background-color: lightgrey;
+}
+body{
+    background-color: lightblue;
+}

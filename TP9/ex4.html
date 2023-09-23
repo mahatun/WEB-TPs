@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="butt">Cliquez sur une image</button>
+    
+    <img id="fleure rose" src="https://post.healthline.com/wp-content/uploads/2021/11/lotus-flower-in-pond-732x549-thumbnail-732x549.jpg" onclick="nom(this)">
+    <img id ="fleure mauve" src="flower-729512__340.jpg" onclick="nom(this)">
+    <script>
+        function nom(elem){
+            
+            document.getElementById("butt").innerHTML=elem.id;
+            
+        }
+
+    </script>
+    
+</body>
+</html>

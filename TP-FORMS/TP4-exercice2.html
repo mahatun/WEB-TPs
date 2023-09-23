@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <p align="center"><b>Novel Services Login</b></p>  
+</head>
+<body>
+    <form>
+        <table style="table-layout:fixed;width:200px" align="center" cellspacing="5">
+            <tr>
+                <td><lable for="uname">Username: </lable></td>
+                <td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+                <td><lable for="pword">Password:  </lable></td>
+                <td><input type="text" name="pword"></td>
+            </tr>
+            <tr>
+                <td style="width:100px; overflow:hidden"><lable for="ci">City of employment: </lable></td>
+                <td><input type="text" name="ci"></td>
+            </tr>
+            <tr>
+                <td><label for>Web server:</label></td>
+                <td> 
+                    <select name="select" id="select" value="">
+                        <option value="" selected disabled hidden>-Choose a server-</option>
+                        
+                
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100px; overflow:hidden">Please sepcify your role</td>
+                <td>
+                    
+                        <input type="radio" name="role" value="Admin">
+                        <label for="Admin">Admin</label><br>
+                        <input type="radio" name="role" value="Engineer">
+                        <label for="Engineer">Engineer</label><br>
+                        <input type="radio" name="role" value="Manager">
+                        <label for="Manager">Manager</label><br>
+                        <input type="radio" name="role" value="Guest">
+                        <label for="Guest">Guest</label><br>
+                    
+                    
+                </td>
+            </tr>
+            <tr>
+                <td  style="width:100px; overflow:hidden">Single sign-on to the following :</td>
+                <td style="width:200px">
+                    <input type="checkbox"  name="1" value="Mail" style="border-color:blue">
+                    <label for="Mail">Mail</label><br>
+                    <input type="checkbox" name="2" value="Pay-Roll" style="border-color:blue">
+                    <label for="Pay-Roll"> Pay-roll</label><br>
+                    <input type="checkbox"  name="3" value="Self-Service" style="border-color:blue;">
+                    <label for="Self-Service">Self-service</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" name="Login" style="position: relative;top:43px;left: 600px;">
+        
+        
+        <input type="reset" value="Reset" style="position: relative;top:43px;left: 600px;">
+    </form>
+    
+</body>
+</html>

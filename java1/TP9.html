@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="TP9.CSS">
+<head>
+    <div class="title">Formulaire d inscription controle cote client</div>
+    <form>
+        <input type =" text" style="width: 100%;">
+    </form>
+
+    <form class="main">
+       
+        <div class="c1">
+            <select id="civilite">
+                <option hidden>Civilite</option>
+            </select>
+            <input type="text" placeholder="Votre prenom" id="prenom" >
+            <input type="email" placeholder="Votre mail" id="mail1" >
+            <input type="password" id="pass1" placeholder="password">
+
+            
+
+        </div>
+        <div class="c1">
+            <input type="text" placeholder="Votre nom" id="nom">
+            <input type="date" placeholder="Naissance, ex: 19/04/2005" id="date">
+            <input type="email" placeholder="Confirmer l email" id="mail2" >
+            <input type="password" id="pass2"  placeholder="password">
+            
+
+        </div>
+        
+    </form>
+    <form style="margin-left:30%;margin-top:1%">
+        <input type="submit" value="Valider" onclick="validate_passwords();validate_emails();required()">
+    </form>
+    <script>
+        var input_field_1 = document.getElementById("pass1");
+        var input_field_2 = document.getElementById("pass2");
+        var input_field_3 = document.getElementById("mail1");
+        var input_field_4 = document.getElementById("mail2");
+
+
+
+        function validate_passwords(){
+
+            if(input_field_1.value != input_field_2.value){
+                alert("passwords don t match")
+    
+                
+  
+    
+            }
+  
+            
+            return false;
+  
+        }; 
+        function validate_emails(){
+            if( input_field_3.value != input_field_4.value){
+                alert("Emails don t match");
+            }
+            
+
+        } 
+        const inputs =[ document.getElementById("pass1"),document.getElementById("pass2"),document.getElementById("mail1"),document.getElementById("mail2"),document.getElementById("nom"),document.getElementById("prenom"),document.getElementById("date"),document.getElementById("civilte")];
+        function required() {
+            for( var i =0; i < inputs.length ; i++){
+                if (inputs[i].value.length == 0){
+                    alert("Input field empty: "+ inputs[i].placeholder); 
+                    break;
+                
+                }
+
+            }
+            
+             
+        
+        }  	
+      
+    
+
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>

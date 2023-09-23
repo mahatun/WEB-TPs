@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel=stylesheet type="text/css" href="ds.css">
+<script src="ds.js"></script>
+<head>
+    <div class="head">
+        <img src="polemploi (2).gif">
+        <img src ="fond3.png">
+        
+        <div>Vendredi 16 novembre 2012 | <a href="#">Plan du suite</a></div>
+
+    </div>
+    <div class="acceuil">
+        <button href="#"><div>Acceuil pole-emploi.fr</div></button>
+        <button>Candidar</button>
+        <button>Actualites</button>
+        <button>Reglementation</button>
+        <button>En region</button>
+    </div>
+    <div class="vousEtes">Vous etes:<a href="#">Acceil Pole emploi</a>><a href="#">Vous souhaitez vous inscrire ou vous re-insrcice comme demandeur d emploi</a>>Votre demande:</div>
+    <div class="pagePre">
+        <a>Page precedente</a>
+        <div>
+            <div>Votre demande d inscription: recherche d un dossier existant</div>
+            <div><a href="#">Aide</a></div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="first">
+            <div class="index">
+                <img src="focus_ico.png[-1x100].png[100x-1]4810.png">
+                <div>
+                    <div>Des donnees relatives a votre situation ou votre ancien dossier de demander d emploi peuvent etre recuperees par pole emploi</div>
+                    <div>Si ces donnes sont disponibles, votre demande d inscription sera simplifiee</div>
+                </div>
+                
+            </div>
+            <div class="saisir">
+                <div>Saisissez les informations</div>
+                <div class="champs">
+                    <p>Les champs precedes par un asterisque (*) sont obligatoires</p>
+                    <form>
+                        <div class="civilite">
+                            <label><span>*</span>Civilite </label>
+                            
+                            <label for="mme">
+                                <input type = "radio" name="civilite" />
+                                Madame                                            
+                            </label>
+                            
+                            <label for="ms">
+                                <input type = "radio" name="civilite" />
+                                Mademoiselle
+                            </label>
+                            
+                            <label for="mr">
+                                <input type = "radio" name="civilite" />
+                                Monsieur
+                            </label>
+
+                        </div><br>
+                        
+                        <div class="prenom">
+                            <label for="prenom"><span>*</span>Prenom</label>
+                            <input type="text"  onclick="check(this)"/>
+
+                        </div><br>
+                        
+                        <div class="nom">
+                            <label for="ndn"><span>*</span>Nom de naissance</label>
+                            <input type="text" onclick="check(this)" >
+
+                        </div><br>
+                       
+                        <div class="usage">
+                            <label for="nd">Nom d'usage</label>
+                            <input type="text" onclick="check(this)">
+
+                        </div><br>
+                       
+                        <div class="date" >
+                            <label for="nl"><span>*</span>Ne(e) le</label>
+                            <select value="nl" id="jour">
+                                <option value="1">1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>12</option>
+                                
+                            </select>
+                            <select value="nl" id="mois">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>13</option>
+                            </select>
+                            <select value="nl" id="annee">
+                                <option>2000</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                            </select>
+
+                        </div><br>
+                        
+                        <div class="pays">
+                            <label for="pays"><span>*</span> Pays de naissance</label>
+                            <select>
+                                <option>France</option>
+                            </select>
+
+                        </div><br>
+                        
+                    
+                     
+                        <div class="departement">
+                            <label for="departement"><span>*</span>Deparetement naissance ou Outre-mer</label>
+                            <select value="departement">
+
+                            </select>
+
+                        </div><br>
+                        
+                    
+                        <div class="commune">
+                            <label for="commune"><span>*</span>Commune ou lieu de naissance</label>
+                            <input type="text"  onclick="check(this)">
+
+                        </div><br>
+                        
+                    
+                    
+    
+                        <div class="numero">
+                            <label for="numSecu">Numero de securite sociale</label>
+                            <input type="text"  placeholder="ok" onclick="check(this)">
+                            <input type="text" value="numSecu" onclick="check(this)">
+
+
+                        </div><br>
+                        
+
+                        <button onclick="age()">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container2">
+            <div class="situation">
+                <p>Votre situation</p>
+                <p>-Vous souhaitez vous inscrire</p>
+
+            </div>
+            <div class="situation">
+                <p>Recherche d un dossier</p>
+                <p>
+                    Si vous avez déjà été inscrit à Pôle emploi, des données
+                    sont disponibles sur votre situation. Nous vous invitons
+                    à saisir les informations sur cette page, qui permettront
+                    une recherche de votre dossier.
+                    En vous connectant avec vos anciens identifiants :
+                    - votre demande d'inscription sera simplifiée
+                    - la saisie du formulaire sera allégée (prise en compte
+                    automatique de votre situation précédente)
+                    - le traitement de votre dossier sera facilité
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+    
+
+
+</head>
+<body>
+    
+</body>
+</html>

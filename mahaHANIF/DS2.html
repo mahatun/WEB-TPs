@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="DS2.css">
+    <div class="head" id="head">
+        <div class="switch1"><img src="logo.png"></div>
+        <div>
+            <button type="button" class="info">Get More Info</button>
+        </div>
+
+
+    </div>
+
+
+</head>
+<body>
+    <form>
+        <div class="big">
+            <div class="row1">
+                <div class="code">
+                    <div class="prob">
+                        <fieldset  >
+                            
+                            <legend >Code
+                            </legend>
+                            <input type="text" class="cod" id="code" style="border: 1px solid white;width:100%" class="do">
+                            
+                        </fieldset>
+                    </div>
+                    <div class="prob2">
+                        <fieldset  class="tel">
+                            <legend >Telephone*
+                                
+                            </legend>
+                            <input type="text"  id = "telephone" style="border: 1px solid white;" class="do">
+                            
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="space">
+                    <fieldset class="c">
+                        <legend >Country*
+                            
+                        </legend>
+                        <select id="country">
+                            <option hidden>Select</option>
+                            <option>Morrocco</option>
+                            <option>France</option>
+                        </select>
+                    </fieldset>
+
+                </div>
+
+                <div class="space">
+                    <fieldset class="c" >
+                        <legend >Intake Year
+                            
+                        </legend>
+                        <select>
+                            <option hidden>Select</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                        </select>
+                    </fieldset>
+                    
+                </div>
+
+            </div>
+
+            <div class="row2">
+                <div >
+                
+                    <div>
+                        <fieldset class="c2">
+                            <legend >Email*
+                                
+                            </legend>
+                            <input type="text" id="email" style="border: 1px solid white;" class="do">
+                            
+                        </fieldset>
+                        
+                    </div>
+                </div>
+
+                <div class="space" >
+                    <fieldset class="c2" >
+                        <legend >Nationality*
+                            
+                        </legend>
+                        <select id="nationality">
+                            <option hidden>Select</option>
+                            <option>Moroccan</option>
+                            <option>Portuguese</option>
+                            <option>Spanish</option>
+                        </select>
+                    </fieldset>
+                    
+
+                </div>
+
+                <div class="space">
+                    <fieldset  class="c2">
+                        <legend >Prefered Contact Time
+                            
+                        </legend>
+                        <select>
+                            <option hidden>Select</option>
+                            <option>19:00</option>
+                            <option>20:00</option>
+                        </select>
+                    </fieldset>
+                    
+                    
+                </div>
+
+
+
+            </div>
+            
+            
+        </div>
+        <div class="text">
+            The University of Europe for applied siecnes is a part of the global university systems group of companies
+            (the GUS Groupe). The information you provide on this form <br>will be processed in accordance wuth the univesity of europ for applied sciences.The 
+            university of Europe for Apploed Sciences will use the details<br> provided by you to get in touch with you about your enquiry Please note, you should only complete
+            this form i fyou are over the age of 16 or if yur parenrs/legal<br>
+            guardians have agreed to the processing of your data.
+
+            
+        </div>
+        <div class="check">
+            <input type="checkbox">
+            <label>I would like to recieve Whatsapp updates specific to my programme of interest, application status and approching deadlines fron the University of Europe for other institutions in the GUS Group.</label><br>
+
+        </div>
+        
+        <div class="check" >
+            <input type="checkbox" >
+            <label>I conset to recieve information (by email phone or text SMS) about the courses and services affored by the Univesrity  of Europe Fot Applied sciences and<br>
+            other institutions in the GUS group.</label>
+
+
+        </div>
+        <div class="text">
+            You can unsubscribe at any type using links provided in any communication we send.
+        </div>
+        
+        <div class="subBut"><button class="submit" onclick="formVerify()" type="button">Submit</button></div>
+    </form>
+    <script>
+        const code = document.getElementById("code");
+        const telephone = document.getElementById("telephone");
+        const mail = document.getElementById("email");
+        const country = document.getElementById("country");
+        const nationality = document.getElementById("nationality");
+
+        function formVerify(){
+            swch();
+            
+            if ( code.value == ""){
+                setError(code,"failN");
+
+
+            }else if (!codVerify(code.value)){
+                alert("format de code non admisssible");
+                setError(code,"failN");
+            }
+            else{
+                setError(code,"codeN");
+            }
+            
+            if (telephone.value == ""){
+                setError(telephone,"failTel");
+            }
+            else if (!numVerify(telephone.value)){
+                setError(telephone,"failTel");
+                alert("format de telephone non admissible");
+                
+            }
+            else{
+                setError(telephone,"tel")
+                
+            }
+            if (mail.value == ""){
+                setError(mail,"fail2");
+
+            }
+            else if (!email(mail.value)){
+                alert("format de mail non admissible");
+                setError(mail,"fail2");
+            } else{
+                setError(mail,"success2");
+
+            }
+
+
+            if (country.options[ country.selectedIndex ].value  == "" || country.selectedIndex == 0 ){
+                setError(country,"fail1");
+            }
+            else{
+                setError(country,"success1");
+
+            }
+            if (nationality.options[ nationality.selectedIndex ].value  == "" || nationality.selectedIndex == 0 ){
+                setError(nationality,"fail2");
+            }
+            else{
+                setError(nationality,"success2");
+
+            }
+
+
+            
+            
+
+
+        }
+        function email(mail){
+
+            return /^[a-z0-9._-]+@[a-z0-9._-]{2,}.[a-z]{2,4}$/.test(mail);
+        }
+        function setError(elem,name){
+            const fieldse= elem.parentElement;
+            elem.focus();
+            fieldse.className = name;
+        }
+        function codVerify(code){
+            return /^[+0-9]{4}$/.test(code);
+        }
+        function numVerify(num){
+            return /^[0-9]{8,}$/.test(num);
+        }
+        function swch(){
+            const div = document.getElementById("head");
+            div.className = "switch";
+            const logo = div.lastElementChild;
+            const butt = div.firstElementChild;
+            
+
+
+        }
+        
+
+
+    </script>
+    
+</body>
+</html>
